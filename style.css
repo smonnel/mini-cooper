@@ -4,12 +4,19 @@
     display: flex;
     }
 #top menu{
-
 display: flex;
- justify-content: space-between;
+justify-content: space-between;
 height: 72px;
 background-color: white;
-border-bottom: 1px;
+border-bottom: 4px transparent;
+
+
+}
+.menu{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
 }
 
 
