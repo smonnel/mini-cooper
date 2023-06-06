@@ -2,6 +2,8 @@
     height: 10%;
     width: 10%;
     display: flex;
+    
+  
     }
 
 #top menu{
@@ -12,6 +14,7 @@ background-color: white;
 border-bottom: 4px solid #1f9cc2;
 padding: 0 0 0 1rem;
 align-items: center;
+
 }
 
 .menu{
