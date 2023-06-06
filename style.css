@@ -2,9 +2,7 @@
     height: 10%;
     width: 10%;
     display: flex;
-    
-  
-    }
+ }
 
 #top menu{
 display: flex;
@@ -22,7 +20,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 2px 1rem 0;
-display: flexbox;
+
 }
 
 .menu1{
