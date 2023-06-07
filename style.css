@@ -9,22 +9,26 @@
     height: 72px;
     border-bottom: 7rem solid black;
     justify-content: space-around;
+    align-items: center;
+
 }
 
 .menu{
-display: flex;
-justify-content: space-around;
-padding: 2px 1rem 0;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .menu1{
-padding: 22PX;
-margin: 10px
-
- }
+    margin: 10px
+}
 
 .menu1:hover {
-background-color: #1f9cc2;
-border-bottom-color:4px solid #1f9cc2;
+    background-color: #1f9cc2;
+}
+
+.onelogo{
+    display: flex;
+    justify-content: space-around;
+ 
 }
