@@ -73,6 +73,7 @@ margin: 9em;
 
 
 @media (max-width:1440px){
+
 #bottommenu{
 margin: 3em;
     }
@@ -86,7 +87,10 @@ margin: 1em;
 }
 
 @media (max-width:768px){
-display:none
+#bottomenu{
+display: none;
+margin: 1em;
+}
 
 
 }
