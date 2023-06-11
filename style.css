@@ -6,24 +6,22 @@
 
  #top menu{
     display: flex;
-    height: 72px;
-    border-bottom: 7rem solid black;
+    height: 72px;  
     justify-content: space-around;
     align-items: center;
-
 }
 
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .menu1{
 
-    padding: 15px 5px 15px 5px;
-    font-size: 11px;
-    
+    padding: 10px 5px 10px 5px;
+    font-size: 11px;    
 }
 
 .menu1:hover {
@@ -31,4 +29,32 @@
     border-bottom: 3px solid #1f9cc2; 
 }
 
+.headerburgeur{
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  
+}
 
+#bottommenu{
+    display: flex;
+    padding: 10px 5px 10px 5px;
+    height: 72px;
+    margin: 3em;
+             
+}
+
+.cart{
+
+justify-content: space-around;
+display: flex;
+height: 30px;
+width: 30px;
+
+
+}
+
+.person{
+justify-content: space-around;
+display: flex;
+}
