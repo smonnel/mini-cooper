@@ -58,3 +58,38 @@ width: 30px;
 justify-content: space-around;
 display: flex;
 }
+
+@media (max-width:2560px){
+#topmenu{
+ display: none;
+} 
+
+
+#bottommenu{
+margin: 9em;
+}   
+ } 
+
+
+
+@media (max-width:1440px){
+#bottommenu{
+margin: 3em;
+    }
+
+}
+
+@media (max-width:1024px){
+#bottomenu{
+margin: 1em;
+}
+}
+
+@media (max-width:768px){
+display:none
+
+
+}
+
+
+
