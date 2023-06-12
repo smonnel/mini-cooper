@@ -57,6 +57,8 @@ width: 30px;
 .person{
 justify-content: space-around;
 display: flex;
+
+
 }
 
 @media (max-width:2560px){
