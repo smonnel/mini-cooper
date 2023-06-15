@@ -1,24 +1,26 @@
-.logo{
+.logo {
     height: 5%;
-    width: 5%;
-    
+    width: 5%; 
  }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: solid 1px black;
-    
+    border-bottom: solid 1px black;    
 }
 
-.menu1{
-
-    padding: 10px 5px 10px 5px;
-    font-size: 11px;    
+.menu1 {
+    font-size: 11px;
+    border-bottom: 3px solid white;
+    padding: 20px;  
 }
 
 .menu1:hover {
+    color: #1f9cc2;;
+    border-bottom: 3px solid #1f9cc2; 
+}
+.icone:hover {
     color: #1f9cc2;;
     border-bottom: 3px solid #1f9cc2; 
 }
@@ -26,71 +28,53 @@
 .icones{
     display: flex;
     justify-content: space-around;
-    width: 150px;
+    align-items: center;
+    width: 250px;
+    
     }
-
-
+    .icone{
+    border-bottom: 3px solid white;  
+    padding: 14px;
+    }
 
 #bottommenu{
     display: flex;
     padding: 10px 5px 10px 5px;
     height: 72px;
-    margin: 3em;
-             
+    margin: 3em;             
 }
 
-.cart{
-
-justify-content: space-around;
-display: flex;
-height: 30px;
-width: 30px;
-
-
+.headerburgeur {
+    display:none;
 }
 
-.person{
-justify-content: space-around;
-display: flex;
+@media screen and (max-width: 767px) {
+    .menu1 { display: none; }
+    .headerburgeur { display: block; }
+    .logo {height: 15%; width: 15%; }
+  }
 
+/* 
 
-}
+Les media queries sont un concept essentiel dans le développement web moderne, car ils permettent d'adapter l'apparence et le comportement d'un site web en fonction des caractéristiques de l'appareil utilisé pour le visualiser, telles que la taille de l'écran, l'orientation, la résolution, etc. En utilisant les media queries, vous pouvez créer des mises en page réactives et optimisées pour différents dispositifs.
+Les media queries fonctionnent en évaluant les caractéristiques du périphérique et en appliquant les styles CSS correspondants en conséquence. Elles sont basées sur des expressions qui définissent les conditions pour lesquelles les styles doivent être appliqués. Si une expression de media query est évaluée comme vraie, les styles à l'intérieur de celle-ci seront appliqués.
+Voici la syntaxe générale d'une media query en CSS :
 
-@media (max-width:2560px){
-#topmenu{
- display: none;
-} 
-
-
-#bottommenu{
-margin: 9em;
-}   
- } 
-
-
-
-@media (max-width:1440px){
-
-#bottommenu{
-margin: 3em;
-    }
+@media media-type and (media-feature) {
 
 }
 
-@media (max-width:1024px){
-#bottomenu{
-margin: 1em;
-}
-}
+@media : directive qui indique qu'il s'agit d'une media query.
+media-type : optionnel, spécifie le type de média, tel que screen (écran), print (impression) ou speech (synthèse vocale).
+media-feature : spécifie la caractéristique sur laquelle la media query sera évaluée. Il peut s'agir de la largeur de l'écran (width), de la hauteur de l'écran (height), de l'orientation (orientation), de la résolution (resolution), etc.
 
-@media (max-width:768px){
-#bottomenu{
-display: none;
-margin: 1em;
+Exemple taille de l'écran 
+@media screen and (max-width: 767px) {
 }
 
-
+Exemple orientation téléphone
+@media screen and (orientation: landscape) {
 }
 
 
-
+*/
