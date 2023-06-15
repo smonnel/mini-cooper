@@ -1,20 +1,14 @@
 .logo{
-    height: 10%;
-    width: 10%;
-    display: flex;
+    height: 5%;
+    width: 5%;
+    
  }
-
- #top menu{
-    display: flex;
-    height: 72px;  
-    justify-content: space-around;
-    align-items: center;
-}
 
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-bottom: solid 1px black;
     
 }
 
@@ -29,12 +23,13 @@
     border-bottom: 3px solid #1f9cc2; 
 }
 
-.headerburgeur{
-    align-items: center;
-    width: 30px;
-    height: 30px;
-  
-}
+.icones{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    }
+
+
 
 #bottommenu{
     display: flex;
